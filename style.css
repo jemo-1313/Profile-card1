@@ -1,0 +1,166 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+  
+
+
+body{  
+    position: relative; 
+    overflow: hidden;
+    background-color: #19A1AE;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.img-bottom{
+    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(67%,67%);
+}
+
+.img-top{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(-72%, -65%);
+}
+
+
+
+
+@media (min-width: 720px){
+    .img-bottom{
+    
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translate(15%, 71%);
+    }
+    
+    .img-top{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        transform: translate(-30%,-50%);
+    }
+}
+
+
+
+
+
+
+.mainbox{    
+    z-index: 1;
+    width: 350px;
+    box-shadow:  0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.box-1{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-2{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+.line-box{
+    background-color: #E8E9EC;
+    height: 1px;
+    margin-top: 28px;
+    
+
+}
+
+.box-3{
+    
+    margin-top: 24px;
+    margin-bottom: 27px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-card{
+    width: 350px;
+    height: 140px;
+
+}
+
+.img-profile{
+    border: 5px solid #ffffff;
+    margin-top: -51px;
+    border-radius: 50px;
+    width: 96px;
+    /* justify-content: center; */
+    margin-left: calc(50% - 96px/2);
+    border-bottom: 0px;
+}
+
+.text-1{
+    margin-top: 24px;
+    font-family:'Kumbh Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #2E3349;
+}
+
+
+b{
+    
+    color: #6B7082;
+    margin-left: 8.5px;
+    font-weight: 400;
+}
+
+.textcity{
+    margin-top: 13px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #6B7082;
+    height: 14px;
+
+}
+
+.text-numbers{
+    
+    font-family:'Kumbh Sans';
+    font-weight: 700;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 22.32px;
+    text-align: center;
+    margin-bottom: 9px;
+}
+
+.bottom-text{
+    color: #6B7082;
+    font-family:'Kumbh Sans';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+ 
+
+
